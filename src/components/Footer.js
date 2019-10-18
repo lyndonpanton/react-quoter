@@ -1,9 +1,11 @@
 import React from "react";
 
 const Footer = (props) => {
+	const { author, copyright, date } = props;
+	
 	return (
 		<footer>
-			<p>&copy; 2019 Lyndon Panton | All Rights Reserved</p>
+			<p>&copy; { date } { author } | { copyright }</p>
 			<p>Credit: ...</p>
 		</footer>
 	);
