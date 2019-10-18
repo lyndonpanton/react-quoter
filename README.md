@@ -1,3 +1,30 @@
+# React Quoter
+
+## How To Open
+> 1. Install node and npm
+> 2. Open your system's terminal
+> 3. Go to the application's download folder in that terminal
+> 4. In that folder in that terminal run the command _npm start_
+
+## How To Use
+> 1. Starting the application will render a quote
+> 2. Press the _New Quote_ button to render a new quote
+
+## Requirements
+> 1. This application requires node and npm to run
+> 2. This application requires a browser to run
+> 3. That browser must have JavaScript available and enabled
+
+## User Stories
+> 1. Users can see a famous quote
+> 2. Users can render a new famous quote
+
+## Preview
+![Screenshot 1](./src/assets/images/screenshot1.png)
+![Screenshot 2](./src/assets/images/screenshot2.png)
+![Screenshot 3](./src/assets/images/screenshot3.png)
+![Screenshot 4](./src/assets/images/screenshot4.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
