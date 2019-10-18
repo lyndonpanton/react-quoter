@@ -10,7 +10,7 @@ const Header = (props) => {
 
 	const h1Styling = {
 		margin: 0,
-		padding: "10px 0",
+		padding: "15px 0",
 		textAlign: "center"
 	};
 
