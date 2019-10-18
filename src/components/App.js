@@ -41,12 +41,23 @@ class App extends React.Component {
 	render() {
 		const { author, copyright, date, name, person, quote } = this.state;
 
+		const buttonStyling = {
+			display: "block",
+			margin: "0 auto",
+			border: "#2466B4 solid 1px",
+			borderRadius: "3px",
+			padding: "10px 25px",
+			backgroundColor: "#BBDDFF",
+			fontFamily: "Lucida Bright, Georgia, serif",
+			fontSize: "1em"
+		};
+
 		return (
 			<div className="app">
 				<Header name={name} />
 				<main>
 					<Quote person={person} quote={quote} />
-					<button onClick={this.getQuote}>New Quote</button>
+					<button onClick={this.getQuote} style={buttonStyling}>New Quote</button>
 				</main>
 				<Footer author={author} copyright={copyright} date={date} />
 			</div>
