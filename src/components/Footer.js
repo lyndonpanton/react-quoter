@@ -1,14 +1,20 @@
 import React from "react";
 
-const Footer = (props) => {
-	const { author, copyright, date } = props;
-	
-	return (
-		<footer>
-			<p>&copy; { date } { author } | { copyright }</p>
-			<p>Credit: ...</p>
-		</footer>
-	);
+class Footer extends React.Component {
+	constructor(props) {
+		super(props);
+	};
+
+	render() {
+		const { author, copyright, date } = this.props;
+
+		return (
+			<footer>
+				<p>&copy; { date } { author } | { copyright }</p>
+				<p>Credit: ...</p>
+			</footer>
+		);
+	};
 };
 
 export default Footer;
