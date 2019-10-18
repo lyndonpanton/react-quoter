@@ -20,7 +20,10 @@ class App extends React.Component {
 		fetch("https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json").then((response) => {
 			return response.data;
 		}).catch((error) => {
-
+			this.setState({
+				person: "JavaScript",
+				quote: "Error: " + error
+			});
 		}).then((data) => {
 
 		});
