@@ -19,7 +19,7 @@ class App extends React.Component {
 		return (
 			<div className="app">
 				<Header name={name} />
-				<Footer />
+				<Footer author={author} copyright={copyright} date={date} />
 			</div>
 		);
 	}
