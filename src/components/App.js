@@ -40,7 +40,10 @@ class App extends React.Component {
 		return (
 			<div className="app">
 				<Header name={name} />
-				<Quote person={person} quote={quote} />
+				<main>
+					<Quote person={person} quote={quote} />
+					<button onClick={this.getQuote}>New Quote</button>
+				</main>
 				<Footer author={author} copyright={copyright} date={date} />
 			</div>
 		);
