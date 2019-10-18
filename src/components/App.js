@@ -18,7 +18,7 @@ class App extends React.Component {
 
 	getQuote = () => {
 		fetch("https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json").then((response) => {
-			return response.data;
+			return response.json();
 		}).catch((error) => {
 			this.setState({
 				person: "JavaScript",
