@@ -1,6 +1,6 @@
 # React Quoter
 
-## How To Open
+## How To Open
 > 1. Install node and npm
 > 2. Open your system's terminal
 > 3. Go to the application's download folder in that terminal
