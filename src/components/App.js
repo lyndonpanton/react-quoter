@@ -25,7 +25,12 @@ class App extends React.Component {
 				quote: "Error: " + error
 			});
 		}).then((data) => {
+			const index = Math.floor(Math.random() * data.length);
 
+			this.setState({
+				person: data[index]["quoteAuthor"],
+				quote: data[index]["quoteText"]
+			});
 		});
 	}
 
