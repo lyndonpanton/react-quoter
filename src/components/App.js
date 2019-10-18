@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Quote from "./Quote";
 import Footer from "./Footer";
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
 		return (
 			<div className="app">
 				<Header name={name} />
+				<Quote />
 				<Footer author={author} copyright={copyright} date={date} />
 			</div>
 		);
