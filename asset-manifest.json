@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-quoter/static/css/main.a4d95488.chunk.css",
+    "main.js": "/react-quoter/static/js/main.a1cdf680.chunk.js",
+    "main.js.map": "/react-quoter/static/js/main.a1cdf680.chunk.js.map",
+    "runtime-main.js": "/react-quoter/static/js/runtime-main.e1a4102a.js",
+    "runtime-main.js.map": "/react-quoter/static/js/runtime-main.e1a4102a.js.map",
+    "static/js/2.1073a5a1.chunk.js": "/react-quoter/static/js/2.1073a5a1.chunk.js",
+    "static/js/2.1073a5a1.chunk.js.map": "/react-quoter/static/js/2.1073a5a1.chunk.js.map",
+    "index.html": "/react-quoter/index.html",
+    "precache-manifest.4b282e6262783f41f8ad088fd7e6cf7d.js": "/react-quoter/precache-manifest.4b282e6262783f41f8ad088fd7e6cf7d.js",
+    "service-worker.js": "/react-quoter/service-worker.js",
+    "static/css/main.a4d95488.chunk.css.map": "/react-quoter/static/css/main.a4d95488.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1a4102a.js",
+    "static/js/2.1073a5a1.chunk.js",
+    "static/css/main.a4d95488.chunk.css",
+    "static/js/main.a1cdf680.chunk.js"
+  ]
+}
