@@ -1,10 +1,12 @@
 import React from "react";
 
 const Quote = (props) => {
+	const { person, quote } = props;
+	
 	return (
 		<blockquote>
-			<q>[Quote here]</q>
-			<cite>[Person here]</cite>
+			<q>{quote}</q>
+			<cite> - {person}</cite>
 		</blockquote>
 	);
 };
