@@ -10,7 +10,9 @@ class App extends React.Component {
 			author: "Lyndon Panton",
 			copyright: "All Rights Reserved",
 			date: (new Date()).getFullYear(),
-			name: "React Quoter"
+			name: "React Quoter",
+			person: "",
+			quote: ""
 		};
 	};
 
@@ -18,7 +20,7 @@ class App extends React.Component {
 		fetch("https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json").then((response) => {
 			return response.data;
 		}).catch((error) => {
-			
+
 		}).then((data) => {
 
 		});
