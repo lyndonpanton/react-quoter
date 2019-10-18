@@ -16,6 +16,10 @@ class App extends React.Component {
 		};
 	};
 
+	componentDidMount() {
+		this.getQuote();
+	};
+	
 	getQuote = () => {
 		fetch("https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json").then((response) => {
 			return response.json();
