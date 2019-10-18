@@ -35,12 +35,12 @@ class App extends React.Component {
 	}
 
 	render() {
-		const { author, copyright, date, name } = this.state;
+		const { author, copyright, date, name, person, quote } = this.state;
 
 		return (
 			<div className="app">
 				<Header name={name} />
-				<Quote />
+				<Quote person={person} quote={quote} />
 				<Footer author={author} copyright={copyright} date={date} />
 			</div>
 		);
