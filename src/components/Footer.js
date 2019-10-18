@@ -3,6 +3,11 @@ import React from "react";
 class Footer extends React.Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			credits: {
+				api: "https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json"
+			}
+		};
 	};
 
 	render() {
