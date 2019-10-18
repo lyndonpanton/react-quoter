@@ -16,7 +16,7 @@ class Footer extends React.Component {
 		return (
 			<footer>
 				<p>&copy; { date } { author } | { copyright }</p>
-				<p>Credit: <a href={this.state.credits.api} target="_blank">JamesFT</a></p>
+				<p>Credit: <a href={this.state.credits.api} target="_blank" rel="noopener noreferrer">JamesFT</a></p>
 			</footer>
 		);
 	};
