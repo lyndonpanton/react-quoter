@@ -19,7 +19,7 @@ class App extends React.Component {
 	componentDidMount() {
 		this.getQuote();
 	};
-	
+
 	getQuote = () => {
 		fetch("https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json").then((response) => {
 			return response.json();
@@ -32,7 +32,7 @@ class App extends React.Component {
 			const index = Math.floor(Math.random() * data.length);
 
 			this.setState({
-				person: data[index]["quoteAuthor"],
+				person: data[index]["quoteAuthor"] || "Unknown",
 				quote: data[index]["quoteText"]
 			});
 		});
